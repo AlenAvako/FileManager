@@ -10,9 +10,26 @@
 		836E2067283E8FB300518C81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836E2066283E8FB300518C81 /* AppDelegate.swift */; };
 		836E2069283E8FB300518C81 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836E2068283E8FB300518C81 /* SceneDelegate.swift */; };
 		836E206B283E8FB300518C81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836E206A283E8FB300518C81 /* ViewController.swift */; };
-		836E206E283E8FB300518C81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 836E206C283E8FB300518C81 /* Main.storyboard */; };
 		836E2070283E8FB600518C81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 836E206F283E8FB600518C81 /* Assets.xcassets */; };
 		836E2073283E8FB600518C81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 836E2071283E8FB600518C81 /* LaunchScreen.storyboard */; };
+		836E207C283E903200518C81 /* FileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836E207B283E903200518C81 /* FileTableViewCell.swift */; };
+		836E207E283E905B00518C81 /* SizeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836E207D283E905B00518C81 /* SizeTableViewCell.swift */; };
+		836E2080283E908400518C81 /* SortTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836E207F283E908400518C81 /* SortTableViewCell.swift */; };
+		836E2083283E90B700518C81 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836E2082283E90B700518C81 /* AppCoordinator.swift */; };
+		836E2085283E90CF00518C81 /* CoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836E2084283E90CF00518C81 /* CoordinatorProtocol.swift */; };
+		836E2087283E90F900518C81 /* FileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836E2086283E90F900518C81 /* FileCoordinator.swift */; };
+		836E2089283E912600518C81 /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836E2088283E912600518C81 /* LoginCoordinator.swift */; };
+		836E208B283E914100518C81 /* SettingsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836E208A283E914100518C81 /* SettingsCoordinator.swift */; };
+		836E208E283E916E00518C81 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836E208D283E916E00518C81 /* CustomButton.swift */; };
+		836E2090283E918F00518C81 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836E208F283E918F00518C81 /* CustomTextField.swift */; };
+		836E2092283E91B900518C81 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836E2091283E91B900518C81 /* Extensions.swift */; };
+		836E2094283E91D600518C81 /* FileManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836E2093283E91D600518C81 /* FileManagerApp.swift */; };
+		836E2096283E91F500518C81 /* LoginInspector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836E2095283E91F500518C81 /* LoginInspector.swift */; };
+		836E2099283E92BB00518C81 /* FileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836E2098283E92BB00518C81 /* FileViewController.swift */; };
+		836E209B283E92DD00518C81 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836E209A283E92DD00518C81 /* ImageViewController.swift */; };
+		836E209D283E92FB00518C81 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836E209C283E92FB00518C81 /* LoginViewController.swift */; };
+		836E209F283E932F00518C81 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836E209E283E932F00518C81 /* SettingsViewController.swift */; };
+		836E20A2283E958900518C81 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 836E20A1283E958900518C81 /* KeychainAccess */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +37,26 @@
 		836E2066283E8FB300518C81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		836E2068283E8FB300518C81 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		836E206A283E8FB300518C81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		836E206D283E8FB300518C81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		836E206F283E8FB600518C81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		836E2072283E8FB600518C81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		836E2074283E8FB600518C81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		836E207B283E903200518C81 /* FileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileTableViewCell.swift; sourceTree = "<group>"; };
+		836E207D283E905B00518C81 /* SizeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeTableViewCell.swift; sourceTree = "<group>"; };
+		836E207F283E908400518C81 /* SortTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortTableViewCell.swift; sourceTree = "<group>"; };
+		836E2082283E90B700518C81 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		836E2084283E90CF00518C81 /* CoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorProtocol.swift; sourceTree = "<group>"; };
+		836E2086283E90F900518C81 /* FileCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileCoordinator.swift; sourceTree = "<group>"; };
+		836E2088283E912600518C81 /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
+		836E208A283E914100518C81 /* SettingsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCoordinator.swift; sourceTree = "<group>"; };
+		836E208D283E916E00518C81 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		836E208F283E918F00518C81 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		836E2091283E91B900518C81 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		836E2093283E91D600518C81 /* FileManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerApp.swift; sourceTree = "<group>"; };
+		836E2095283E91F500518C81 /* LoginInspector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInspector.swift; sourceTree = "<group>"; };
+		836E2098283E92BB00518C81 /* FileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileViewController.swift; sourceTree = "<group>"; };
+		836E209A283E92DD00518C81 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		836E209C283E92FB00518C81 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		836E209E283E932F00518C81 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				836E20A2283E958900518C81 /* KeychainAccess in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +90,63 @@
 		836E2065283E8FB300518C81 /* FileManager */ = {
 			isa = PBXGroup;
 			children = (
+				836E2097283E927300518C81 /* Controllers */,
+				836E208C283E916600518C81 /* Models */,
+				836E2081283E90A300518C81 /* Coordinators */,
+				836E207A283E901F00518C81 /* Cells */,
 				836E2066283E8FB300518C81 /* AppDelegate.swift */,
 				836E2068283E8FB300518C81 /* SceneDelegate.swift */,
 				836E206A283E8FB300518C81 /* ViewController.swift */,
-				836E206C283E8FB300518C81 /* Main.storyboard */,
 				836E206F283E8FB600518C81 /* Assets.xcassets */,
 				836E2071283E8FB600518C81 /* LaunchScreen.storyboard */,
 				836E2074283E8FB600518C81 /* Info.plist */,
 			);
 			path = FileManager;
+			sourceTree = "<group>";
+		};
+		836E207A283E901F00518C81 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				836E207B283E903200518C81 /* FileTableViewCell.swift */,
+				836E207D283E905B00518C81 /* SizeTableViewCell.swift */,
+				836E207F283E908400518C81 /* SortTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		836E2081283E90A300518C81 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				836E2082283E90B700518C81 /* AppCoordinator.swift */,
+				836E2084283E90CF00518C81 /* CoordinatorProtocol.swift */,
+				836E2086283E90F900518C81 /* FileCoordinator.swift */,
+				836E2088283E912600518C81 /* LoginCoordinator.swift */,
+				836E208A283E914100518C81 /* SettingsCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		836E208C283E916600518C81 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				836E208D283E916E00518C81 /* CustomButton.swift */,
+				836E208F283E918F00518C81 /* CustomTextField.swift */,
+				836E2091283E91B900518C81 /* Extensions.swift */,
+				836E2093283E91D600518C81 /* FileManagerApp.swift */,
+				836E2095283E91F500518C81 /* LoginInspector.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		836E2097283E927300518C81 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				836E2098283E92BB00518C81 /* FileViewController.swift */,
+				836E209A283E92DD00518C81 /* ImageViewController.swift */,
+				836E209C283E92FB00518C81 /* LoginViewController.swift */,
+				836E209E283E932F00518C81 /* SettingsViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +165,9 @@
 			dependencies = (
 			);
 			name = FileManager;
+			packageProductDependencies = (
+				836E20A1283E958900518C81 /* KeychainAccess */,
+			);
 			productName = FileManager;
 			productReference = 836E2063283E8FB300518C81 /* FileManager.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +196,9 @@
 				Base,
 			);
 			mainGroup = 836E205A283E8FB300518C81;
+			packageReferences = (
+				836E20A0283E958900518C81 /* XCRemoteSwiftPackageReference "KeychainAccess" */,
+			);
 			productRefGroup = 836E2064283E8FB300518C81 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +215,6 @@
 			files = (
 				836E2073283E8FB600518C81 /* LaunchScreen.storyboard in Resources */,
 				836E2070283E8FB600518C81 /* Assets.xcassets in Resources */,
-				836E206E283E8FB300518C81 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +225,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				836E2090283E918F00518C81 /* CustomTextField.swift in Sources */,
+				836E207E283E905B00518C81 /* SizeTableViewCell.swift in Sources */,
 				836E206B283E8FB300518C81 /* ViewController.swift in Sources */,
+				836E209F283E932F00518C81 /* SettingsViewController.swift in Sources */,
+				836E2089283E912600518C81 /* LoginCoordinator.swift in Sources */,
+				836E209D283E92FB00518C81 /* LoginViewController.swift in Sources */,
+				836E2085283E90CF00518C81 /* CoordinatorProtocol.swift in Sources */,
+				836E2096283E91F500518C81 /* LoginInspector.swift in Sources */,
+				836E2087283E90F900518C81 /* FileCoordinator.swift in Sources */,
+				836E207C283E903200518C81 /* FileTableViewCell.swift in Sources */,
+				836E2080283E908400518C81 /* SortTableViewCell.swift in Sources */,
 				836E2067283E8FB300518C81 /* AppDelegate.swift in Sources */,
+				836E209B283E92DD00518C81 /* ImageViewController.swift in Sources */,
+				836E208E283E916E00518C81 /* CustomButton.swift in Sources */,
+				836E208B283E914100518C81 /* SettingsCoordinator.swift in Sources */,
+				836E2099283E92BB00518C81 /* FileViewController.swift in Sources */,
+				836E2094283E91D600518C81 /* FileManagerApp.swift in Sources */,
 				836E2069283E8FB300518C81 /* SceneDelegate.swift in Sources */,
+				836E2083283E90B700518C81 /* AppCoordinator.swift in Sources */,
+				836E2092283E91B900518C81 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		836E206C283E8FB300518C81 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				836E206D283E8FB300518C81 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		836E2071283E8FB600518C81 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +388,6 @@
 				INFOPLIST_FILE = FileManager/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +415,6 @@
 				INFOPLIST_FILE = FileManager/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +452,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		836E20A0283E958900518C81 /* XCRemoteSwiftPackageReference "KeychainAccess" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kishikawakatsumi/KeychainAccess";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		836E20A1283E958900518C81 /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 836E20A0283E958900518C81 /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 836E205B283E8FB300518C81 /* Project object */;
 }
